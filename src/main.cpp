@@ -15,6 +15,7 @@ long gps_last_updated = 0;
 void Debugger(){
     Serial.print("!");
     Serial.print(current_lat, 6);
+    Serial.print("*");
     Serial.print(current_lng, 6);
     Serial.print("#");
 }
